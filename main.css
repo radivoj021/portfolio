@@ -1,0 +1,175 @@
+body{
+  background: #000000;
+  background: linear-gradient(155deg, rgba(0, 0, 0, 1) 0%, rgba(199, 87, 184, 1) 85%, rgba(237, 221, 83, 1) 100%);
+  }
+  
+  #header{
+    width: 100%;
+    height: 40px;
+    background-color: #2E2E2E;
+    margin-bottom: 160px;
+    opacity: 0.6;
+    padding-top: 10px;
+  }
+  
+  #emptyHeader{
+    width: 25%;
+    float: left;
+    height: 10px;
+  }
+  
+  #headerPrg{
+    width: 30%;
+    color: white;
+    float: left;
+    height: 100%;
+  }
+  
+  span{
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #leftBox{
+    width: 50%;
+    aspect-ratio: 3 / 2;
+    float: left;
+  }
+  
+  #rightBox{
+    width: 50%;
+    aspect-ratio: 3 / 2;
+    float: left;
+    padding-top: 0;
+    display: block;
+    position: relative;
+  }
+  
+  #name{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 65px;
+    padding-top: 0;
+    display: block;
+    margin-top: -30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: -10px;
+    text-shadow: 0px 2px 6px rgba(245,149,255,1);
+    min-height: 45px;
+  }
+  
+  #aboutMe{
+    color: white;
+    margin-left: 3px;
+    margin-top: 20px;
+  }
+  
+  #image{
+    height: 80%;
+    margin-top: 20px;
+    background-image: url('profilna.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  #buttons{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  #btnContact{
+    float: left;
+    margin-right: 20px;
+  }
+  
+  #btnProjects{
+    float: left;
+  }
+  
+  .btnHome{
+    background-color: white;
+    border: 2px solid white;
+    color: gray;  
+  }
+  
+  .btnHome:hover{
+    background-color: white;
+    color: gray;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px 2px rgba(245,149,255,1);
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(245,149,255,1);
+  -moz-box-shadow: 0px 0px 6px 2px rgba(245,149,255,1);
+  }
+  
+  #footer{
+    height: 60px;
+    background-color:#1b1b1b;
+    width: 100%;
+    opacity: 0.8;
+    bottom: 0;
+    padding-top: 18px;
+    border-top: 1px solid rgb(70, 70, 70);
+  }
+  
+  #emptyFooter{
+    width: 25%;
+    height: 10px;
+    float: left;
+  }
+  
+  #footerIcons{
+    color: white;
+  }
+
+  a img:hover{
+    box-shadow: 0px 0px 6px 2px rgba(245,149,255,1);
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(245,149,255,1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(245,149,255,1);
+  }
+
+#sideMenu{
+  width: 15%;
+  background-color: black;
+  height: 800px;
+  float: left;
+  opacity: 0.5;
+  padding-top: 20px;
+}
+
+#sideMenu .listItem{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#sideMenu #listTitle{
+   color: white;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#sideMenu li:hover{
+  color: rgb(157, 157, 255)
+}
+
+hr {
+  color: white;
+  width: 50%;
+}

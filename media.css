@@ -1,0 +1,466 @@
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+    /* tvoj stil za male telefone */
+    body{
+      background: #000000;
+      background: linear-gradient(157deg, rgba(0, 0, 0, 1) 0%, rgba(7, 3, 8, 1) 0%, rgba(51, 16, 46, 1) 54%, rgba(116, 35, 153, 1) 100%);
+    }
+
+    #sideMenu{
+      display: none;
+    }
+
+    #dropdownMenu{
+      width: 320px;
+      margin-top: 20px;
+    }
+    .dropdown-menu.show{
+      width: 320px;
+    }
+
+    .dropdown{
+      width: 320px;
+      margin: 0 auto;
+    }
+
+    .btn-secondary{
+      width: 320px;
+      margin-top: 20px;
+    }
+
+    #container{
+        width: 100%;
+    }
+
+    #headerPrg{
+        width: 100%;
+        text-align: center;
+    }
+
+    #name{
+        color: white;
+        font-size: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #title{
+        text-align: center;
+
+    }
+
+    #aboutMe{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 40px;
+
+    }
+
+    #emptyHeader{
+        display: none;
+    }
+    span{
+        font-size: 14px;
+        margin: px;
+    }
+    #header{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    #footer{
+        bottom: 0;
+        position: fixed;
+        text-align: center;
+        height: 80px;
+    }
+
+    #leftBox{
+        width: 100%;
+        margin: auto;
+    }
+    #rightBox{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    #image{
+        border: 2px solid black;
+        margin-top: 40px;
+    }
+
+    #image {
+        opacity: 0;
+        animation: fadeIn 5s forwards; /* Animacija traje 2 sekunde i zadržava krajnji efekat */
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+    #buttons{
+        position: relative;
+        margin-top: 40px;
+    }
+
+    button{
+        margin-right: 0;
+        width: 40%;
+    }
+
+    #btnContact{
+        float: left;
+        margin-right: 0px;
+        margin-left: 20px;
+      }
+    #btnProjects{
+        float: right;
+        margin-right: 20px;
+    }
+
+    #emptyFooter{
+        display: none;
+
+    }
+
+/*     #footerIcons{
+        padding-bottom: 10px;
+    } */
+
+    #footerIcons span{
+        font-size: 33px;
+        margin: 13px;
+    }
+
+/*     #gallery img{
+        height: 140px;
+        aspect-ratio: 1 / 1;
+        background-color: lightgray;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    } */
+
+    #info p{
+        width: 80%;
+        color: white;
+        margin-top: 20px;
+    }
+
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 200px); /* 6 kolona, svaka sa širinom 200px */
+      grid-gap: 20px; /* Razmak između slika */
+      justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
+      margin-top: 20px;
+    }
+
+    #gallery img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover; /* Obezbeđuje da slike popune prostor bez deformacija */
+    }
+
+    #location{
+      width: 90%;
+      margin: 0 auto;
+      height: 200px;
+      border: 1px solid white;
+      background-color: white;
+      margin-bottom: 500px;
+      margin-top: 50px;
+    }
+
+
+
+  }
+  
+  /* Small devices (phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        background-color: white;
+    }
+  }
+
+  #headerPrg{
+    width: 100%;
+    text-align: center;
+}
+
+  #mailContact{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  #aboutMe{
+    margin-bottom: 100px;
+  }
+
+  #info{
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+  }
+
+  #footer{
+    bottom: 0;
+    position: fixed;
+  }
+
+  #half{
+    margin-top: -100px;
+    height: 10vh;
+  }
+
+  body{
+    height: 120vh;
+    background-size: cover;
+}
+
+  #name{
+    font-size: 50px;
+  }
+
+  #image {
+    opacity: 0;
+    animation: fadeIn 5s forwards; /* Animacija traje 2 sekunde i zadržava krajnji efekat */
+    height: 80%;
+  }
+
+  #footerIcons span{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  #footerIcons{
+    margin-top: -10px;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #title{
+    font-size: 20px;
+  }
+
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 150px); /* 6 kolona, svaka sa širinom 200px */
+    grid-gap: 20px; /* Razmak između slika */
+    justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
+  }
+
+  #gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Obezbeđuje da slike popune prostor bez deformacija */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #cont{
+        width: 40%;
+        margin-left: 10%;
+        padding-left: 0;
+    }
+
+    #info{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-size: 25px;
+    }
+
+    body{
+        height: 150vh;
+    }
+
+    #name{
+        font-size: 50px;
+    }
+
+    #footer{
+        margin-top: 200px;
+        position: fixed;
+    }
+
+    #buttons{
+        margin-top: -85px;
+        position: relative;
+    }
+
+    #leftBox{
+        width: 40%;
+    }
+
+/*     #footer{
+        margin-bottom: -250px;
+        opacity: 1;
+    } */
+
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 200px); /* 6 kolona, svaka sa širinom 200px */
+      grid-gap: 20px; /* Razmak između slika */
+      justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
+    }
+
+    #gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover; /* Obezbeđuje da slike popune prostor bez deformacija */
+    }
+
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #sideMenu{
+      position: absolute;
+    }
+
+    #cont{
+        width: 30%;
+        margin-left: 10%;
+        padding-left: 0;
+    }
+
+    #info{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+    }
+
+    body{
+        height: -50vh;
+    }
+
+    #footer{
+        margin-top: 200px;
+        position: fixed;
+    }
+
+    #buttons{
+        margin-top: -85px;
+        position: relative;
+    }
+
+    #aboutMe{
+        padding-right: 40px;
+    }
+
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 200px); /* 6 kolona, svaka sa širinom 200px */
+      grid-gap: 20px; /* Razmak između slika */
+      justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
+    }
+
+    #gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover; /* Obezbeđuje da slike popune prostor bez deformacija */
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    #sideMenu{
+      position: absolute;
+    }
+
+    .dropdownMenu{
+      display: none;
+    }
+
+        #header{
+      margin-bottom: 0;
+    }
+
+
+    #cont{
+        width: 25%;
+        margin-left: 25%;
+        padding-left: 0;
+    }
+
+    #info{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        font-size: 30px;
+    }
+
+    #headerPrg{
+        width: 50%;
+        text-align: left;
+        margin-top: 2px;
+    }
+
+    #footer{
+        margin-top: 200px;
+        position: fixed;
+    }
+
+    #buttons{
+        margin-top: -85px;
+        position: relative;
+    }
+
+    #image{
+        height: 90%;
+    }
+
+    #half{
+        margin-top: 30px;
+    }
+
+    #aboutMe{
+        padding-right: 40px;
+    }
+
+    #emptyHeader{
+        width: 25%;
+    }
+    
+    #buttons{
+        bottom: 0;
+        position: absolute;
+    }
+
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 200px); /* 6 kolona, svaka sa širinom 200px */
+      grid-gap: 20px; /* Razmak između slika */
+      justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
+    }
+
+    #gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover; /* Obezbeđuje da slike popune prostor bez deformacija */
+    }
+
+    #footer{
+      height: 80px;
+    }
+  }
+

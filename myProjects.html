@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="media.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <div id="emptyHeader"></div>
+          <div id="headerPrg">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+              <span>PHP</span>
+              <span>Mysql</span>
+              <span>React</span>
+              <span>Bootstrap</span>
+          </div>
+        </div>
+    </div>
+
+    <div id="sideMenu">
+      <ul>
+        <li id="listTitle">CATEGORIES:</li>
+        <hr>
+        <li class="listItem">All</li>
+        <li class="listItem">Web Apps</li>
+        <li class="listItem">Web sites</li>
+        <li class="listItem">Games</li>
+      </ul>
+    </div>
+
+    <div class="dropdown dropdownMenu">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Choose category
+      </button>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">All</a></li>
+        <li><a class="dropdown-item" href="#">Games</a></li>
+        <li><a class="dropdown-item" href="#">Web Apps</a></li>        
+        <li><a class="dropdown-item" href="#">Web Sites</a></li>
+      </ul>
+    </div>
+
+    <div id="gallery">
+        <a href="https://www.rapicdev.rs/timetable/index.php"><img src="timetable.PNG" class="rounded float-start" alt="timetable"></a>
+        <a href="https://www.rapicdev.rs/calculator/index.html"><img src="calculator.PNG" class="rounded float-end" alt="calculator"></a>
+        <a href="https://www.rapicdev.rs/BirdsGame2/index.html.html"><img src="birds.PNG" class="rounded float-start" alt="birds"></a>
+        <a href="https://www.rapicdev.rs/memory_game/index.html"><img src="memoryGame.PNG" class="rounded float-start" alt="Memory game" placeholder></a>
+        <!-- <a href="https://www.rapicdev.rs/calculator/index.html"><img src="calculator.PNG" class="rounded float-end" alt="calculator"></a> -->
+        <a href="https://www.rapicdev.rs/token_log/profile.php"><img src="token_log_img.PNG" class="rounded float-start" alt="birds"></a>
+        <a href="https://www.rapicdev.rs/restaurant_app/dist/"><img src="restaurant_app.PNG" class="rounded float-start" alt="restaurant"></a>
+    </div>
+
+      <div id="footer">
+        <div id="emptyFooter"></div>
+        <div id="footerIcons">
+          <span><i class="fa-brands fa-square-facebook"></i></span>
+          <span><i class="fa-brands fa-linkedin"></i></span>
+<!--             <span>Fiverr</span> -->
+          <span><i class="fa-brands fa-upwork"></i></span>
+          <span><i class="fa-brands fa-square-instagram"></i></span>
+          <span><i class="fa-brands fa-github"></i></span>
+          <span><i  onclick="window.location.href='contact.html';" class="fa-solid fa-envelope"></i></span>
+        </div>
+      </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
