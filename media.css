@@ -191,7 +191,7 @@
 
   #headerPrg{
     width: 100%;
-    text-align: center;
+/*     text-align: center; */
 }
 
   #mailContact{
@@ -335,6 +335,22 @@
   @media (min-width: 992px) and (max-width: 1199.98px) {
     #sideMenu{
       position: absolute;
+      width: 20%;
+      padding-top: 50px;
+      height: 100vh;
+    }
+
+    #header{
+      height: 40px;
+    }
+
+    #emptyHeader{
+      width: 30%;
+    }
+
+    #headerPrg{
+      float: left;
+      width: 50%;
     }
 
     #cont{
@@ -369,15 +385,30 @@
 
     #gallery {
       display: grid;
-      grid-template-columns: repeat(4, 200px); /* 6 kolona, svaka sa širinom 200px */
+      grid-template-columns: repeat(3, 200px); /* 6 kolona, svaka sa širinom 200px */
       grid-gap: 20px; /* Razmak između slika */
       justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
+      float: left;
+      margin-left: 30%;
+      margin-top: 50px;
     }
 
     #gallery img {
       width: 200px;
       height: 200px;
       object-fit: cover; /* Obezbeđuje da slike popune prostor bez deformacija */
+      background-color: white;
+      padding: 3px;
+    }
+
+    #gallery p{
+      color: white;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .categoryBtn{
+      display: none;
     }
   }
   
@@ -394,6 +425,7 @@
 
         #header{
       margin-bottom: 0;
+      height: 40px;
     }
 
 
