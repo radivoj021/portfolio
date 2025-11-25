@@ -1,5 +1,5 @@
 /* Extra small devices (phones, <576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 300px) and (max-width: 575.98px) {
     /* tvoj stil za male telefone */
     body{
       background: #000000;
@@ -188,10 +188,35 @@
         background-color: white;
     }
   }
+  #emptyHeader{
+    width: 40%;
+    float: left;
+  }
+
+  #header{
+    height: 40px;
+    padding-top: 0px;
+  }
 
   #headerPrg{
-    width: 100%;
+    width: 60%;
+    height: 0px;
+    float: left;
+    padding-top: 6px;
 /*     text-align: center; */
+}
+
+#gallery img{
+  padding: 3px;
+  background-color: white;
+}
+
+
+#sideMenu{
+  width: 25%;
+  height: 95vh;
+  padding-top: 45px;
+
 }
 
   #mailContact{
@@ -214,6 +239,8 @@
   #footer{
     bottom: 0;
     position: fixed;
+    height: 80px;
+    opacity: 1;
   }
 
   #half{
@@ -224,6 +251,20 @@
   body{
     height: 100vh;
     background-size: cover;
+}
+
+#gallery{
+  float: left;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+#sideMenu #listTitle{
+  font-size: 15px;
+}
+
+#sideMenu .listItem{
+  font-size: 15px;
 }
 
   #name{
@@ -246,6 +287,10 @@
 
   #footerIcons{
     margin-top: -10px;
+  }
+
+  .categoryBtn{
+    display: none;
   }
   
   @keyframes fadeIn {
@@ -463,6 +508,7 @@
     #sideMenu{
       position: absolute;
       padding-top: 100px;
+      width: 20%;
     }
 
     .dropdownMenu{
