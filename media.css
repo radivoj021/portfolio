@@ -282,6 +282,44 @@
         padding-left: 0;
     }
 
+    #header{
+      height: 40px;
+    }
+
+    #headerPrg{
+      width: 50%;
+      float: left;
+    }
+
+    #sideMenu{
+      height: 100vh;
+      float: left;
+      width: 25%;
+      padding-top: 50px;
+    }
+
+    #gallery{
+      float: left;
+      margin-top: 50px;
+      margin-left: 10%;
+      padding-top: 10px;
+    }
+
+    #gallery img{
+      background-color: white;
+      padding: 3px;
+    }
+
+    #gallery p{
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #emptyHeader{
+      width: 35%;
+    }
+
     #info{
         width: 90%;
         margin: 0 auto;
@@ -311,6 +349,14 @@
         width: 40%;
     }
 
+    .categoryBtn{
+      display: none;
+    }
+
+/*     #headerPrg{
+      width: 50%;
+    }
+ */
 /*     #footer{
         margin-bottom: -250px;
         opacity: 1;
@@ -318,7 +364,7 @@
 
     #gallery {
       display: grid;
-      grid-template-columns: repeat(3, 200px); /* 6 kolona, svaka sa širinom 200px */
+      grid-template-columns: repeat(2, 200px); /* 6 kolona, svaka sa širinom 200px */
       grid-gap: 20px; /* Razmak između slika */
       justify-content: center; /* Centriranje galerije ako je manja od širine ekrana */
     }
